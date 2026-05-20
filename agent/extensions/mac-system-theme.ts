@@ -13,8 +13,8 @@ const SYSTEM_THEME_FILE = "/Users/jswent/machfiles/system-theme";
 
 // Change these if you want to map system light/dark to custom pi theme names.
 const PI_THEME_BY_SYSTEM_THEME = {
-	light: "light",
-	dark: "dark",
+	light: "xcodelight",
+	dark: "rose-pine",
 } as const;
 
 type SystemTheme = keyof typeof PI_THEME_BY_SYSTEM_THEME;
